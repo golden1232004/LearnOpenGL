@@ -6,6 +6,10 @@
   * hello_triangle_exercise3.cpp: 创建两个着色器程序，第二个程序使用与第一个不同的片段着色器，输出黄色；再次绘制这两个三角形，其中一个输出为黄色
   * hello_triangle2.cpp: 使用索引缓冲对象技术
 
+* shader
+  * shaders-uniform.cpp: use uniform
+  * shaders-interpolated.cpp: use interpolated
+
 
 ## Reference
 
