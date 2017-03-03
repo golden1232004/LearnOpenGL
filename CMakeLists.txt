@@ -23,6 +23,16 @@ target_link_libraries(hello_triangle ${f} ${EXT_LIB} SOIL)
 add_executable(hello_triangle2 ./hello_triangle2.cpp)
 target_link_libraries(hello_triangle2 ${f} ${EXT_LIB} SOIL)
 
+add_executable(hello_triangle_exercise1 ./hello_triangle_exercise1.cpp)
+target_link_libraries(hello_triangle_exercise1 ${f} ${EXT_LIB} SOIL)
+
+add_executable(hello_triangle_exercise2 ./hello_triangle_exercise2.cpp)
+target_link_libraries(hello_triangle_exercise2 ${f} ${EXT_LIB} SOIL)
+
+add_executable(hello_triangle_exercise3 ./hello_triangle_exercise3.cpp)
+target_link_libraries(hello_triangle_exercise3 ${f} ${EXT_LIB} SOIL)
+
+
 
 add_executable(texture ./texture.cpp)
 target_link_libraries(texture ${f} ${EXT_LIB} SOIL)
