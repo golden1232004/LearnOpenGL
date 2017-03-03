@@ -18,20 +18,25 @@ file(GLOB f ./Shader.h)
 
 
 add_executable(hello_triangle ./hello_triangle.cpp)
-target_link_libraries(hello_triangle ${f} ${EXT_LIB} SOIL)
+target_link_libraries(hello_triangle ${EXT_LIB} SOIL)
 
 add_executable(hello_triangle2 ./hello_triangle2.cpp)
-target_link_libraries(hello_triangle2 ${f} ${EXT_LIB} SOIL)
+target_link_libraries(hello_triangle2 ${EXT_LIB} SOIL)
 
 add_executable(hello_triangle_exercise1 ./hello_triangle_exercise1.cpp)
-target_link_libraries(hello_triangle_exercise1 ${f} ${EXT_LIB} SOIL)
+target_link_libraries(hello_triangle_exercise1 ${EXT_LIB} SOIL)
 
 add_executable(hello_triangle_exercise2 ./hello_triangle_exercise2.cpp)
-target_link_libraries(hello_triangle_exercise2 ${f} ${EXT_LIB} SOIL)
+target_link_libraries(hello_triangle_exercise2 ${EXT_LIB} SOIL)
 
 add_executable(hello_triangle_exercise3 ./hello_triangle_exercise3.cpp)
-target_link_libraries(hello_triangle_exercise3 ${f} ${EXT_LIB} SOIL)
+target_link_libraries(hello_triangle_exercise3 ${EXT_LIB} SOIL)
 
+add_executable(shaders-uniform ./shaders-uniform.cpp)
+target_link_libraries(shaders-uniform ${EXT_LIB} SOIL)
+
+add_executable(shaders-interpolated ./shaders-interpolated.cpp)
+target_link_libraries(shaders-interpolated ${EXT_LIB} SOIL)
 
 
 add_executable(texture ./texture.cpp)
