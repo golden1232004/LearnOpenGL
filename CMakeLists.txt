@@ -41,3 +41,6 @@ target_link_libraries(shaders-interpolated ${EXT_LIB} SOIL)
 
 add_executable(texture ./texture.cpp)
 target_link_libraries(texture ${f} ${EXT_LIB} SOIL)
+
+add_executable(texture_combined ./texture_combined.cpp)
+target_link_libraries(texture_combined ${f} ${EXT_LIB} SOIL)
