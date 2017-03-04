@@ -53,3 +53,6 @@ target_link_libraries(texture_exercise3 ${f} ${EXT_LIB} SOIL)
 #########################################################################
 add_executable(transform ./transform.cpp)
 target_link_libraries(transform ${f} ${EXT_LIB} SOIL)
+
+add_executable(transform_exercise ./transform_exercise.cpp)
+target_link_libraries(transform_exercise ${f} ${EXT_LIB} SOIL)
