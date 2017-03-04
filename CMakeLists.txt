@@ -44,3 +44,6 @@ target_link_libraries(texture ${f} ${EXT_LIB} SOIL)
 
 add_executable(texture_combined ./texture_combined.cpp)
 target_link_libraries(texture_combined ${f} ${EXT_LIB} SOIL)
+
+add_executable(texture_exercise3 ./texture_exercise3.cpp)
+target_link_libraries(texture_exercise3 ${f} ${EXT_LIB} SOIL)

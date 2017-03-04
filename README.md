@@ -10,6 +10,9 @@
   * shaders-uniform.cpp: use uniform
   * shaders-interpolated.cpp: use interpolated
 
+* texture
+  * texture_exercise3.cpp: 尝试在矩形上只显示纹理图像的中间一部分，修改纹理坐标，达到能看见单个的像素的效果。尝试使用GL_NEAREST的纹理过滤方式让像素显示得更清晰
+
 
 ## Reference
 
