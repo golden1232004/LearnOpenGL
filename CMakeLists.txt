@@ -56,3 +56,14 @@ target_link_libraries(transform ${f} ${EXT_LIB} SOIL)
 
 add_executable(transform_exercise ./transform_exercise.cpp)
 target_link_libraries(transform_exercise ${f} ${EXT_LIB} SOIL)
+
+#########################################################################
+
+add_executable(coordinate_systems ./coordinate_systems.cpp)
+target_link_libraries(coordinate_systems ${f} ${EXT_LIB} SOIL)
+
+add_executable(coordinate_systems_with_depth ./coordinate_systems_with_depth.cpp)
+target_link_libraries(coordinate_systems_with_depth ${f} ${EXT_LIB} SOIL)
+
+add_executable(coordinate_systems_multiple_objects ./coordinate_systems_multiple_objects.cpp)
+target_link_libraries(coordinate_systems_multiple_objects ${f} ${EXT_LIB} SOIL)
